@@ -14,7 +14,7 @@ export const Introduction = () =>
         <p>I'm well-versed in many programming languages and happier writing Python, Scala, Go or TypeScript.</p>
         
         <p>I'm currently working on <a href="https://banksealer.com/">fraud detection using Machine Learning</a>,
-        microservices deployed to AWS and functional programming on the JVM.</p>
+        microservices deployed to AWS machines and functional programming on the JVM.</p>
 
         <p>Want to chat? Feel free to drop me an email :)</p>
     </div>
