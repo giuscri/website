@@ -11,10 +11,8 @@ export const Introduction = () =>
         this Google Docs</a>. I'm based in Milan but <strong>I'm open to move to other countries</strong> for the
         right opportunity.</p>
 
-        <p>I'm well-versed in many programming languages but I'm happier writing Python, Scala, Go or TypeScript.</p>
+        <p>I'm well-versed in many programming languages and happier writing Python, Scala, Go or TypeScript.</p>
         
-        <p>What I look for in new jobs opportunities is the possibility of becoming a better engineer.</p>
-
         <p>I'm currently working on <a href="https://banksealer.com/">fraud detection using Machine Learning</a>,
         microservices deployed to AWS and functional programming on the JVM.</p>
 
