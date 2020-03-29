@@ -1,18 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
-html {
-    height: 100%;
+* {
+    font-family: 'Noto Serif', serif;
 }
 
-@media (prefers-color-scheme: dark) {
-    html {
-        background: #181a1b;
-    }
-
-    * {
-        color: white;
-    }
+html {
+    height: 100%;
 }
 
 strong {
@@ -23,6 +17,9 @@ strong {
     margin-left: 0.2rem;
 }
 
-* {
-    font-family: 'Noto Serif', serif;
+@media (prefers-color-scheme: dark) {
+    html {
+        background: #181a1b;
+        color: white;
+    }
 }
