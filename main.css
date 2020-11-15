@@ -1,8 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic');
 
 * {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 html {
