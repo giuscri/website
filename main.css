@@ -2,25 +2,8 @@
 
 * {
     font-family: 'Gentium Book Basic', serif;
-    line-height: 1.5rem;
-}
-
-html {
-    height: 100%;
-    font-size: 21px;
-    text-align: center;
-}
-
-h1 {
-    line-height: 2.25rem;
 }
 
 strong {
     font-size: 1.2rem;
-}
-
-#container {
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 3rem;
 }
