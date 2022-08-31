@@ -14,7 +14,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="./assets/favicon.ico" />
-        <link rel="stylesheet" href="./main.css" />
+        <link rel="preload" as="style" href="./main.css" onload="this.rel='stylesheet'" />
         <meta name="Description" content="Webpage to introduce Giuseppe Crino', a software engineer." />
         <title>Giuseppe Crino'</title>
     </head>
@@ -32,12 +32,12 @@
             <p>Want to chat? Feel free to drop me an email :)</p>
 
             <h2>Contacts</h2>
-            <div style="margin-top: 0.25rem"><a href="https://docs.google.com/document/d/1BkYXPAYwFgX5ICjazuAwp3TO_kIyWpInLID-32l6O4Y/edit?usp=sharing"</a>Resume</div>
-            <div style="margin-top: 0.25rem"><a href="mailto:giuscri@gmail.com">Mail</a></div>
-            <div style="margin-top: 0.25rem"><a href="https://twitter.com/giuscri">Twitter</a></div>
-            <div style="margin-top: 0.25rem"><a href="https://github.com/giuscri">GitHub</a></div>
-            <div style="margin-top: 0.25rem"><a href="https://www.linkedin.com/in/giuseppe-crino-179bb071/">LinkedIn</a></div>
-            <div style="margin-top: 0.25rem"><a href="https://giuscri.medium.com">Blog</a></div>
+            <div style="margin-top: 0.25rem"><a aria-label="Go to Giuseppe's resume on Google Docs" href="https://docs.google.com/document/d/1BkYXPAYwFgX5ICjazuAwp3TO_kIyWpInLID-32l6O4Y/edit?usp=sharing"</a>Resume</div>
+            <div style="margin-top: 0.25rem"><a aria-label="Open email client to send an email" href="mailto:giuscri@gmail.com">Mail</a></div>
+            <div style="margin-top: 0.25rem"><a aria-label="Go to Twitter profile" href="https://twitter.com/giuscri">Twitter</a></div>
+            <div style="margin-top: 0.25rem"><a aria-label="Go to GitHub profile" href="https://github.com/giuscri">GitHub</a></div>
+            <div style="margin-top: 0.25rem"><a aria-label="Go to LinkedIn profile" href="https://www.linkedin.com/in/giuseppe-crino-179bb071/">LinkedIn</a></div>
+            <div style="margin-top: 0.25rem"><a aria-label="Go to Medium blog" href="https://giuscri.medium.com">Blog</a></div>
         </div>
     </body>
 </html>
