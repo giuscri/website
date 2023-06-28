@@ -3,3 +3,18 @@
 * {
     font-family: 'Gentium Book Basic', serif;
 }
+
+a {
+    color: rgb(37 99 235);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(41 37 36);
+        color: white;
+    }
+
+    a {
+        color: rgb(29 78 216);
+    }
+}
