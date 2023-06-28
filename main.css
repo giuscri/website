@@ -1,25 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Mr+Dafoe&display=swap'); */
-
-@font-face {
-    font-family: 'Gentium Book Basic';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./assets/gentium-book-basic.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'Mr Dafoe';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./assets/mr-dafoe.ttf) format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Mr+Dafoe&display=swap');
 
 * {
     font-family: 'Gentium Book Basic', serif;
-}
-
-strong {
-    font-size: 1.2rem;
 }
